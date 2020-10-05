@@ -6,6 +6,19 @@
     width: 100%;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+
+.site-section .video {
+    border-radius: 2px 2px black;
+}
+
+strong {
+    color: #6d1e49;
+}
+
 .site-navbar .container-fluid {
     padding-left: 7rem;
     padding-right: 7rem;
@@ -576,6 +589,7 @@ body {
     font-size: 1rem;
     line-height: 1.7;
     position: relative;
+    font-size: 20px;
 }
 
 body:after {
@@ -1281,7 +1295,6 @@ h4 {
 }
 
 .site-footer {
-    padding: 7rem 0;
     position: relative;
     background: #6d1e49;
     margin-top: 10rem;
@@ -1326,11 +1339,12 @@ h4 {
 }
 
 .site-footer ul li a {
-    color: #007bff;
+    color: #dee2e6;
+    text-decoration: none;
 }
 
 .site-footer ul li a:hover {
-    color: #fff;
+    color: #ffc107;
 }
 
 .site-footer .scroll-top {
@@ -1370,7 +1384,7 @@ h4 {
     width: 40px;
     height: 40px;
     position: relative;
-    background: #007bff;
+    background: #6d1e49;
     border-radius: 50%;
     text-decoration: none !important;
 }
