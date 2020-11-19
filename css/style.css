@@ -8,11 +8,15 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: aliceblue;
+    background-color: #fff;
 }
 
 .site-section .video {
     border-radius: 2px 2px black;
+}
+.background-img{
+    height:100%;
+    opacity: 60%;
 }
 
 strong {
@@ -629,6 +633,7 @@ h4 {
     padding-bottom: 7rem;
     position: relative;
     z-index: 2;
+    background-color: #fff;
 }
 
 .text-black {
@@ -783,7 +788,19 @@ h4 {
 .section-title-sub {
     font-size: 1rem;
     color: #ced4da;
+    font-weight: bold;
 }
+
+.video-frame{
+    margin: 0 auto;
+	border: 10px outset #ddd;
+}
+
+.about-us{
+padding-top: 50px;
+
+}
+
 
 .section-hero,
 .section-hero>.container>.row {
@@ -913,6 +930,7 @@ h4 {
     color: #adb5bd;
 }
 
+
 .block__62849 .block__16443 {
     background: #fff;
     padding: 30px;
@@ -922,7 +940,20 @@ h4 {
     top: 0;
     position: relative;
     text-decoration: none;
+    max-height: 439px;
 }
+@media screen and (max-width: 765px) {
+    .block__62849 .block__16443 {font-size: 15px;}
+}
+
+@media screen and (max-width: 426px) {
+    .block__62849 .block__16443 {font-size: 15px;}
+}
+@media screen and (max-width: 320px) {
+    .block__62849 .block__16443 p {display: none; padding-right: -15px;}
+
+}
+
 
 .block__62849 .block__16443 .custom-icon {
     display: block;
