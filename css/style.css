@@ -7,9 +7,55 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #fff;
 }
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services .icon-box {
+    margin-bottom: 20px;
+  }
+
+
+.services{
+    padding: 1rem;
+    font-family:  'Montserrat', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.services .icon {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    background: #149ddd;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #149ddd;
+  }
+.services .icon i {
+    /* color: #fff; */
+    font-size: 24px;
+}
+
+  .services .title {
+    margin-left: 80px;
+    font-weight: 700;
+    margin-bottom: 15px;
+   
+  }
+  .services .description {
+    margin-left: 80px;
+    line-height: 24px;
+    font-family: 'Montserrat', sans-serif;;
+   
+}
+.nossa-missao{background-color: #fff;padding:30px 30px; margin: auto;border-radius: 5px #cccccc; box-shadow: 0 0 20px #00000014;text-align: center      ;}
+
+.footer-h3 h3{padding-top: 25px !important;}
 
 .site-section .video {
     border-radius: 2px 2px black;
@@ -18,6 +64,93 @@ body {
     height:100%;
     opacity: 60%;
 }
+.resume {
+    background-color: #fff;
+  }
+  .resume .resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #050d18;
+  }
+  
+  .resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #1f5297;
+    position: relative;
+  }
+  
+  .resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+    margin-bottom: 10px;
+  }
+  
+  .resume .resume-item h5 {
+    font-size: 16px;
+    background: #e4edf9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .resume .resume-item ul {
+    padding-left: 20px;
+  }
+  
+  .resume .resume-item ul li {
+    padding-bottom: 10px;
+  }
+  
+  .resume .resume-item:last-child {
+    padding-bottom: 0;
+  }
+  
+  .resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #1f5297;
+  }
+  .section-title {
+    padding-bottom: 30px;
+  }
+  
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
+  }
+  
+  .section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #149ddd;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .section-title p {
+    margin-bottom: 0;
+  }
 
 strong {
     color: #6d1e49;
@@ -1339,7 +1472,7 @@ padding-top: 50px;
 
 .site-footer.slanted-footer:before {
     content: "";
-    background: rgb(241, 241, 184);
+    background: #fff;
     height: 200px;
     -webkit-transform: skewY(-5deg);
     -ms-transform: skewY(-5deg);
@@ -1350,6 +1483,8 @@ padding-top: 50px;
     right: 0;
     z-index: -1;
 }
+
+
 
 .site-footer h3 {
     font-size: 1rem;
