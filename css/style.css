@@ -763,7 +763,7 @@ h4 {
 
 .site-section {
     padding-top: 7rem;
-    padding-bottom: 7rem;
+    padding-bottom: 0rem;
     position: relative;
     z-index: 2;
     background-color: #fff;
@@ -806,11 +806,14 @@ h4 {
     color: #fff;
 }
 
+.btn{border-radius: 1.25rem;}
 .home-section .btn {
     text-transform: uppercase;
     font-size: 0.9rem;
     letter-spacing: 0.2rem;
+   
 }
+.btn-produtos{ margin-bottom: 150px;}
 
 .home-section .scroll-button {
     position: absolute;
@@ -1461,7 +1464,7 @@ padding-top: 50px;
 .site-footer {
     position: relative;
     background: #6d1e49;
-    margin-top: 10rem;
+    margin-top: 0rem;
 }
 
 @media (max-width: 991.98px) {
