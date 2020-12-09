@@ -5,7 +5,15 @@
     position: absolute;
     width: 100%;
 }
-
+.missao{margin-bottom: 50px;}
+.visao{margin-bottom: 50px;}
+.valores{margin-bottom: 50px;}
+.servicos{background-color:#f8f9fa; padding-bottom: 25px;padding-top:25px ;}
+.icon-services{padding-bottom: 100px;}
+.flutuante{position:fixed;width:100px;height:50px;bottom:40px;right:40px;background-color:#008000;color:#FFF;border-radius:50px;text-align:center;font-size:15px;box-shadow: 1px 1px 2px #888;
+z-index:1000;  font-family: 'Montserrat', sans-serif;}
+.flutuante a {text-decoration: none; color: #fff !important;}
+.flutuante .fa .fa-whatsapp{padding-right: 5px;}
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #fff;
@@ -958,7 +966,7 @@ padding-top: 50px;
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(125, 131, 132, 0.5);
+   
 }
 
 .section-hero.overlay-2:before {
@@ -1041,9 +1049,6 @@ padding-top: 50px;
     z-index: 1;
 }
 
-.slanted-gray:after {
-    background: #f8f9fa !important;
-}
 
 .block__19738 {
     text-align: center;
@@ -1378,6 +1383,7 @@ padding-top: 50px;
 
 .item {
     border: none;
+    padding-bottom: 50px;
 }
 
 .item a {
@@ -1970,4 +1976,10 @@ padding-top: 50px;
     height: 100%;
     width: 100%;
     position: absolute;
+}
+
+@media all and (max-width:768px){
+    .home-section{display:none;}
+    .site-section{padding-top: 200px;}
+    .missoes-icone{width: 30px !important;}
 }
